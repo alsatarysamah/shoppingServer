@@ -3,6 +3,8 @@ Express server
 
 # [Heroku Link](https://samah-shopping-server.herokuapp.com/)
 
+# DB-ERD
+![](./src/img/ER.png)
 # REST API
 POST /api/item
 
