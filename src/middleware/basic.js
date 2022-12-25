@@ -11,6 +11,7 @@ let encodedString = basicHeaderParts.pop();
 let decodedString = base64.decode(encodedString);
 let [username, password] = decodedString.split(':'); 
 console.log(password);
+console.log(username);
   try {
     console.log("try");
     req.user = await users.authenticateBasic(username, password);
