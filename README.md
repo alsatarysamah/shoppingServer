@@ -1,26 +1,31 @@
 # shoppingServer
+
 Express server
 
-# [Heroku Link](https://samah-shopping-server.herokuapp.com/)
+# [live](https://shoppingserver-production.up.railway.app/)
 
 # DB-ERD
 ![](./src/img/ER.png)
+
 # REST API
-POST /api/item
+## item routes
+- POST /item :Create a new item.
 
-Create a new item.
+- GET /item : Get all items
 
-GET /api/item
+- DELETE /item/:id :delet an item.
 
-Get all items
+- PUT /item/:id :update item
 
-DELETE /api/item/:id
+## order routes
+- POST /order :Create a new order.
 
-delet an item.
+- GET /order : Get all orders
 
-PUT /api/item/:id
+- DELETE /order/:id :delet an order.
 
-update items
+- PUT /order/:id :update order
+
 # Auth Routes
 
 /signup

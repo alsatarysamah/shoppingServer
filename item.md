@@ -9,7 +9,7 @@
         "imgUrl": "https://github.com/mahmud-sajib/ecommerce-store-product-data/blob/master/t-shirt2.jpg?raw=true",
         "name": "St. Martins Tee",
         "description": "The St. Martins T-Shirt is made with midweight cotton fabric for soft comfort that lasts. It has a refreshing vibe that let you celebrate the day you live.",
-        "price": "5",
+        "price": "5"
        
     }
 
